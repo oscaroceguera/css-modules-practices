@@ -1,20 +1,29 @@
-.App {
+:global(:root) {
+  --rojo: red;
+  --amatillo: yellow;
+  --azul: blue;
+  --purpura: purple;
+  --naranja: orange;
+  --verde: green;
+}
+
+.AppContainer {
   text-align: center;
 }
 
-.App-logo {
+.logostyl {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
+.header {
+  background-color: var(--verde);
   height: 150px;
   padding: 20px;
   color: white;
 }
 
-.App-intro {
+.intro {
   font-size: large;
 }
 

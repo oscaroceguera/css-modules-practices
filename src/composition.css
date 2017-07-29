@@ -1,0 +1,16 @@
+.CompositionComponentHero {
+  border: 1px solid black;
+  padding: 1em;
+  width: 50%;
+  margin: auto;
+}
+
+.h1One {
+  color: white;
+  background: var(--naranja);
+}
+
+.h1Two {
+  background: var(--purpura);
+  composes: h1One;
+}

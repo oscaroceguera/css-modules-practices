@@ -1,0 +1,11 @@
+.hero {
+  composes: CompositionComponentHero from "./composition.css";
+}
+
+.one {
+  composes: h1One from "./composition.css";
+}
+
+.two {
+  composes: h1Two from './composition.css'
+}
